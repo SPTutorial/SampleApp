@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Application xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="SampleApp.App">
+    <Application.Resources>
+        <ResourceDictionary>
+            <!--Label fonts-->
+            <Style x:Key="BoldFontLabel" TargetType="Label">
+                <Setter Property="FontFamily" Value="Poppins-Bold.ttf#Poppins-Bold"/>
+            </Style>
+
+            <Style x:Key="RegularFontLabel" TargetType="Label">
+                <Setter Property="FontFamily" Value="Poppins-Regular.ttf#Poppins-Regular"/>
+            </Style>
+            <!--end Label fonts-->
+
+            <!--entry fonts-->
+            <Style x:Key="BoldFontEntry" TargetType="Entry">
+                <Setter Property="FontFamily" Value="Poppins-Bold.ttf#Poppins-Bold"/>
+            </Style>
+            <Style x:Key="RegularFontEntry" TargetType="Label">
+                <Setter Property="FontFamily" Value="Poppins-Regular.ttf#Poppins-Regular"/>
+            </Style>
+            <!--end entry fonts-->
+
+            <!--entry fonts-->
+            <Style x:Key="BoldFontButton" TargetType="Button">
+                <Setter Property="FontFamily" Value="Poppins-Bold.ttf#Poppins-Bold"/>
+            </Style>
+            <Style x:Key="RegularFontButton" TargetType="Button">
+                <Setter Property="FontFamily" Value="Poppins-Regular.ttf#Poppins-Regular"/>
+            </Style>
+            <!--end entry fonts-->
+
+            <Style x:Key="stlContactBtn" TargetType="Button">
+                <Setter Property="TranslationY"     Value="-50"/>
+                <Setter Property="TranslationX"     Value="45"/>
+                <Setter Property="BackgroundColor"  Value="#2193f3"/>
+                <Setter Property="WidthRequest"     Value="56"/>
+                <Setter Property="HeightRequest"    Value="56"/>
+                <Setter Property="CornerRadius"     Value="28"/>
+            </Style>
+        </ResourceDictionary>
+    </Application.Resources>
+</Application>

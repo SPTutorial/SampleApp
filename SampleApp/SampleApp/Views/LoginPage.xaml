@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design" NavigationPage.HasNavigationBar="False"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d" BackgroundImageSource="background.jpg"
+             x:Class="SampleApp.Views.LoginPage">
+    <ContentPage.Content>
+        <Grid RowSpacing="0" Padding="15">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="2*"/>
+                <RowDefinition Height="8*"/>
+            </Grid.RowDefinitions>
+            <Grid Grid.Row="0">
+                <!--<Image Source="icon.png"/>-->
+            </Grid>
+            <StackLayout Grid.Row="1" Spacing="0">
+                <Label Text="Proceed with your" FontSize="18" Style="{StaticResource RegularFontLabel}"/>
+                <Label Text="Login" FontSize="28" FontAttributes="Bold" TextColor="Black" Style="{StaticResource BoldFontLabel}"/>
+
+                <Label Text="Username" FontSize="Small" Margin="5,30,0,0" TextColor="Tomato" FontAttributes="Bold" Style="{StaticResource BoldFontLabel}"/>
+                <Entry Placeholder="Username" Style="{StaticResource RegularFontEntry}" x:Name="txtUserName"/>
+
+                <Label Text="Password" FontSize="Small" Margin="5,30,0,0" TextColor="Tomato" FontAttributes="Bold" Style="{StaticResource BoldFontLabel}"/>
+                <Entry Placeholder="Password" Style="{StaticResource RegularFontEntry}" x:Name="txtPassword" IsPassword="True"/>
+
+                <Button Text="Login" CornerRadius="6" BackgroundColor="Tomato" TextColor="White" Style="{StaticResource BoldFontButton}"
+                        FontAttributes="Bold" FontSize="20" Margin="0,8,0,0" x:Name="btnLogin" Clicked="btnLogin_Clicked"/>
+
+                <Label Margin="0,15,0,0" HorizontalOptions="Center">
+                    <Label.FormattedText>
+                        <FormattedString>
+                            <Span Text="Forgot your password? " FontSize="18" Style="{StaticResource RegularFontLabel}"/>
+                            <Span Text="Reset It" FontSize="18" FontAttributes="Bold" TextColor="Tomato" Style="{StaticResource BoldFontLabel}">
+                                <Span.GestureRecognizers>
+                                    <TapGestureRecognizer/>
+                                </Span.GestureRecognizers>
+                            </Span>
+                        </FormattedString>
+                    </Label.FormattedText>
+                </Label>
+            </StackLayout>
+        </Grid>
+    </ContentPage.Content>
+</ContentPage>
