@@ -6,11 +6,10 @@
              mc:Ignorable="d"
              x:Class="SampleApp.MainPage">
 
-    <StackLayout>
+    <StackLayout Padding="10">
         <!-- Place new controls here -->
-        <Label Text="Welcome to Xamarin.Forms!" 
-           HorizontalOptions="Center"
-           VerticalOptions="CenterAndExpand" />
+
+        <Label Text="Test"/>
     </StackLayout>
 
 </ContentPage>

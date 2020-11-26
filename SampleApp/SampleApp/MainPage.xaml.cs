@@ -5,6 +5,8 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using Xamarin.Forms;
+using SampleApp.Views;
+using SampleApp.Models;
 
 namespace SampleApp
 {
@@ -16,6 +18,6 @@ namespace SampleApp
         public MainPage()
         {
             InitializeComponent();
-        }
+        }       
     }
 }

@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "302927427853",
+    "firebase_url": "https://login-388c2.firebaseio.com",
+    "project_id": "login-388c2",
+    "storage_bucket": "login-388c2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:302927427853:android:f192c5358b1c42cb555844",
+        "android_client_info": {
+          "package_name": "com.gmaillogin.sampleapp.android"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "302927427853-p7ft8q7ntv8pe53d3tueada1q2dtvrrs.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.gmaillogin.sampleapp.android",
+            "certificate_hash": "7f55d2085ded1336a888aac8c5863910307a4bbd"
+          }
+        },
+        {
+          "client_id": "302927427853-lmg4v4ebks11r2bu354glhsh7bai9a73.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCJxa61CB5nllRDa5E8h9oOkpevPTlXID0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "302927427853-lmg4v4ebks11r2bu354glhsh7bai9a73.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
